@@ -1,0 +1,19 @@
+{
+	"name": "asincronismo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"callback": "node src/3.2-callback/24-challenge.js"
+	},
+	"keywords": [
+		"javascript"
+	],
+	"author": "srtoro ing.josetoro.2@gmail.com",
+	"license": "MIT",
+	"dependencies": {
+		"node-fetch": "^3.2.6",
+		"xmlhttprequest": "^1.8.0"
+	},
+	"type": "module"
+}
