@@ -71,8 +71,8 @@ var hazmeUnaRestita = function (a, b) {
 	return a - b;
 };
 
-var miSuma = hazmeUnaRestita(1, 1); // Out: 0
-
+var miResta = hazmeUnaRestita(1, 1); // Out: 0
+console.log(miResta);
 
 
 // Las funciones de expresión son una forma práctica de encapsular una funcion dentro de una variable y ser enviada a

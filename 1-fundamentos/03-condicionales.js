@@ -21,7 +21,7 @@ if (esUsuario) {
 
 
 // ==> Else if: Si la condición no es verdadera, se ejecuta otra condición.
-let edad = 18;
+let edad = 16;
 let accion;
 
 if (edad === 18) {

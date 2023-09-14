@@ -13,21 +13,8 @@ var miAuto = {
 let anio = miAuto.annio;
 let modelo = miAuto.modelo;
 let detalles  = miAuto.detallesDelAuto();
+console.log(detalles);
 
 
-
-// ==> Función constructora (constructor):
-// Es una función que se ejecuta cuando se crea un nuevo objeto.
-function auto(marca, modelo, annio) {
-	// Creas una función con los parametros que va a recibir,
-	this.marca = marca;
-	// y utilizamos el "this" para asignar valores a las propiedades del objeto.
-	this.modelo = modelo;
-	this.annio = annio;
-	this.detallesDelAuto = function () {
-		return `Auto ${this.modelo} ${this.annio}`;
-	};
-}
-
-var newAuto = new auto("Tesla", "Model 3", 2020);
-console.log(newAuto); // Out: { marca: "Tesla", modelo: "Model 3", annio: 2020 }
+// ===> Ejercicio
+// Crearás un objeto calculadora, el cual contiene funciones para sumar, restar, multiplicar y dividir

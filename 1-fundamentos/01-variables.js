@@ -8,7 +8,7 @@ let num = 5;
 
 
 var nombre = "Danielito";
-console.log(`Nombre: ${nombre}`); // Out: Nombre: Danielito
+console.log("Nombre: " + nombre); // Out: Nombre: Danielito
 // Aquí reservamos un espacio en memoria para la variable "nombre" y se inicializa con la cadena de
 // texto "Danielito":
 
